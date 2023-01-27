@@ -1,0 +1,10 @@
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A0-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\F385ED367D8DAABDC13B0DE2D8C0CF53\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild -BC:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

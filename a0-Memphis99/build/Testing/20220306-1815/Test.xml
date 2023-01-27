@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220306-1815-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.22011901-MSVC_2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="Notebook-di-Andrea"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19042)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="18699"
+	TotalPhysicalMemory="16267"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2904"
+	>
+	<Testing>
+		<StartDateTime>Mar 06 19:35 ora solare Europa occidentale</StartDateTime>
+		<StartTestTime>1646591756</StartTestTime>
+		<TestList>
+			<Test>./src/test-a0/test-a0</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test-a0</Name>
+			<Path>./src/test-a0</Path>
+			<FullName>./src/test-a0/test-a0</FullName>
+			<FullCommandLine>C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\src\test-a0\Release\test-a0.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0099938</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\src\test-a0\Release\test-a0.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>full name : "Andrea Bionda"
+student id: "21-952-023"
+nethz name: "abionda"
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 06 19:35 ora solare Europa occidentale</EndDateTime>
+		<EndTestTime>1646591756</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,162 @@
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\A449119D9C5ADEE678405BB4E2C9F689\NANOVG-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug/nanovg-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\A449119D9C5ADEE678405BB4E2C9F689\NANOVG-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\DELL\Desktop\University\CMM\a3-Memphis99\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/tmp/nanovg-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug/nanovg-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\A449119D9C5ADEE678405BB4E2C9F689\NANOVG-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\DELL\Desktop\University\CMM\a3-Memphis99\build\_deps\nanovg-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/tmp/nanovg-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\A449119D9C5ADEE678405BB4E2C9F689\NANOVG-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug/nanovg-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\A449119D9C5ADEE678405BB4E2C9F689\NANOVG-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\DELL\Desktop\University\CMM\a3-Memphis99\build\_deps\nanovg-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug/nanovg-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\A449119D9C5ADEE678405BB4E2C9F689\NANOVG-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\DELL\Desktop\University\CMM\a3-Memphis99\build\_deps\nanovg-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug/nanovg-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\A449119D9C5ADEE678405BB4E2C9F689\NANOVG-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\DELL\Desktop\University\CMM\a3-Memphis99\build\_deps\nanovg-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug/nanovg-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\A449119D9C5ADEE678405BB4E2C9F689\NANOVG-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\DELL\Desktop\University\CMM\a3-Memphis99\build\_deps\nanovg-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug/nanovg-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\0FB8F169B2F1389645762250559BC1C5\NANOVG-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/Debug/nanovg-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/Debug/nanovg-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKEFILES\342C5F8D6F738A72DA8A07A25239B862\NANOVG-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\NANOVG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild -BC:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

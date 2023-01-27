@@ -1,0 +1,14 @@
+# Target labels
+ nanovg-populate
+# Source files and their labels
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/nanovg-populate
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/f385ed367d8daabdc13b0de2d8c0cf53/nanovg-populate.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/92fa10d0bb1315c219bd37a2d3eafe0a/nanovg-populate-complete.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/2e5c6ab441201440835a56a4239d1943/nanovg-populate-build.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/2e5c6ab441201440835a56a4239d1943/nanovg-populate-configure.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/2e5c6ab441201440835a56a4239d1943/nanovg-populate-download.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/2e5c6ab441201440835a56a4239d1943/nanovg-populate-install.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/2e5c6ab441201440835a56a4239d1943/nanovg-populate-mkdir.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/2e5c6ab441201440835a56a4239d1943/nanovg-populate-patch.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/2e5c6ab441201440835a56a4239d1943/nanovg-populate-test.rule
+C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/2e5c6ab441201440835a56a4239d1943/nanovg-populate-update.rule

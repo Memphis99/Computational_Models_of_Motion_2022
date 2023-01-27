@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-src\src\nanovg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-src\src\fontstash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-src\src\nanovg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-src\src\nanovg_gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-src\src\nanovg_gl_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-src\src\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-src\src\stb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\ext\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{36A4854B-E318-3297-B53C-EF8EFF9DA089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2DA484F9-1084-394D-B260-AF77AE18ABD9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

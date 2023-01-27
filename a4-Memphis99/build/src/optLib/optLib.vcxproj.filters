@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib\GradientDescentMinimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib\GradientDescentMinimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib\Minimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib\NewtonFunctionMinimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib\ObjectiveFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E2262689-069D-3248-8073-4F5BFACC2688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8648CCC7-F9F7-3879-BA33-C1682E22B6F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\DELL\DESKTOP\UNIVERSITY\CMM\A3-MEMPHIS99\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\59A242B8BAFBA4466E418B9795CE613E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glm-subbuild -BC:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glm-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glm-subbuild/glm-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

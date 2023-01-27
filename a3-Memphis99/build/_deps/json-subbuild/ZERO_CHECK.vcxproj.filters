@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a3-Memphis99\build\_deps\json-subbuild\CMakeFiles\3f0739b2e066cb5b3feacb5f2aae3f94\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D954EEA9-AE82-3627-BFD7-2DD970B5A9EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

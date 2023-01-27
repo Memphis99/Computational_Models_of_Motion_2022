@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/6906b9bbca1a17d801d493b9e4a6deb2/glfw-populate.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/f1650713674feb398d2f212972151759/glfw-populate-complete.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/0b28e5b25061a80dcb48fa1834e7ce3c/glfw-populate-build.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/0b28e5b25061a80dcb48fa1834e7ce3c/glfw-populate-configure.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/0b28e5b25061a80dcb48fa1834e7ce3c/glfw-populate-download.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/0b28e5b25061a80dcb48fa1834e7ce3c/glfw-populate-install.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/0b28e5b25061a80dcb48fa1834e7ce3c/glfw-populate-mkdir.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/0b28e5b25061a80dcb48fa1834e7ce3c/glfw-populate-patch.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/0b28e5b25061a80dcb48fa1834e7ce3c/glfw-populate-test.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/0b28e5b25061a80dcb48fa1834e7ce3c/glfw-populate-update.rule

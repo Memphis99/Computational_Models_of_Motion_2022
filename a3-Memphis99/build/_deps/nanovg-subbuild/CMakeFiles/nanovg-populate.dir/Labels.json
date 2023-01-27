@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/nanovg-populate"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/342c5f8d6f738a72da8a07a25239b862/nanovg-populate.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/0fb8f169b2f1389645762250559bc1c5/nanovg-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/a449119d9c5adee678405bb4e2c9f689/nanovg-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/a449119d9c5adee678405bb4e2c9f689/nanovg-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/a449119d9c5adee678405bb4e2c9f689/nanovg-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/a449119d9c5adee678405bb4e2c9f689/nanovg-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/a449119d9c5adee678405bb4e2c9f689/nanovg-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/a449119d9c5adee678405bb4e2c9f689/nanovg-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/a449119d9c5adee678405bb4e2c9f689/nanovg-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/nanovg-subbuild/CMakeFiles/a449119d9c5adee678405bb4e2c9f689/nanovg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nanovg-populate"
+		],
+		"name" : "nanovg-populate"
+	}
+}

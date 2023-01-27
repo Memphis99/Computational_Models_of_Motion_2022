@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/51ef8031cc4f3b60a82a768c071aaa0f/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/7f603f66d265ebb825c396cd14f2cabd/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/8194972e1660384928cc825619af4017/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/8194972e1660384928cc825619af4017/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/8194972e1660384928cc825619af4017/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/8194972e1660384928cc825619af4017/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/8194972e1660384928cc825619af4017/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/8194972e1660384928cc825619af4017/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/8194972e1660384928cc825619af4017/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glm-subbuild/CMakeFiles/8194972e1660384928cc825619af4017/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

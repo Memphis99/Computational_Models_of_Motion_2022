@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\2e5c6ab441201440835a56a4239d1943\nanovg-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\2e5c6ab441201440835a56a4239d1943\nanovg-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\2e5c6ab441201440835a56a4239d1943\nanovg-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\2e5c6ab441201440835a56a4239d1943\nanovg-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\2e5c6ab441201440835a56a4239d1943\nanovg-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\2e5c6ab441201440835a56a4239d1943\nanovg-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\2e5c6ab441201440835a56a4239d1943\nanovg-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\2e5c6ab441201440835a56a4239d1943\nanovg-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\92fa10d0bb1315c219bd37a2d3eafe0a\nanovg-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\f385ed367d8daabdc13b0de2d8c0cf53\nanovg-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\nanovg-subbuild\CMakeFiles\nanovg-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8083CE1E-EE46-3B90-A925-F9A0B7A9FE15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

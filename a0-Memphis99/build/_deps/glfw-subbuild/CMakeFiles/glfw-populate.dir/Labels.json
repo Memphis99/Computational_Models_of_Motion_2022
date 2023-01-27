@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/77e17ec6b5144e52254150d068fa7259/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/4d4e6c6d92eb540e8141bfc97b701892/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/c69a0230290bee0d5c2596a436a7a1ac/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/c69a0230290bee0d5c2596a436a7a1ac/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/c69a0230290bee0d5c2596a436a7a1ac/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/c69a0230290bee0d5c2596a436a7a1ac/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/c69a0230290bee0d5c2596a436a7a1ac/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/c69a0230290bee0d5c2596a436a7a1ac/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/c69a0230290bee0d5c2596a436a7a1ac/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/DELL/Desktop/University/CMM/a0-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/c69a0230290bee0d5c2596a436a7a1ac/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

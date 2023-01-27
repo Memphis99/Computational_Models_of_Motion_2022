@@ -1,0 +1,14 @@
+# Target labels
+ imgui-populate
+# Source files and their labels
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/d7cfac486bf2edf45fe9b0492207a818/imgui-populate.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/263d301fa785469116a63a0311277713/imgui-populate-complete.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/3794cf3f81d90547eb824ad355b0b41b/imgui-populate-build.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/3794cf3f81d90547eb824ad355b0b41b/imgui-populate-configure.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/3794cf3f81d90547eb824ad355b0b41b/imgui-populate-download.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/3794cf3f81d90547eb824ad355b0b41b/imgui-populate-install.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/3794cf3f81d90547eb824ad355b0b41b/imgui-populate-mkdir.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/3794cf3f81d90547eb824ad355b0b41b/imgui-populate-patch.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/3794cf3f81d90547eb824ad355b0b41b/imgui-populate-test.rule
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/imgui-subbuild/CMakeFiles/3794cf3f81d90547eb824ad355b0b41b/imgui-populate-update.rule

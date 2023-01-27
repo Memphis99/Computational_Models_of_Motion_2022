@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\c69a0230290bee0d5c2596a436a7a1ac\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\c69a0230290bee0d5c2596a436a7a1ac\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\c69a0230290bee0d5c2596a436a7a1ac\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\c69a0230290bee0d5c2596a436a7a1ac\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\c69a0230290bee0d5c2596a436a7a1ac\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\c69a0230290bee0d5c2596a436a7a1ac\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\c69a0230290bee0d5c2596a436a7a1ac\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\c69a0230290bee0d5c2596a436a7a1ac\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\4d4e6c6d92eb540e8141bfc97b701892\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\77e17ec6b5144e52254150d068fa7259\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\DELL\Desktop\University\CMM\a0-Memphis99\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5778B84-D054-3D85-B5DD-E2B0E6C13FF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

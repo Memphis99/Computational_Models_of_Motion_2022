@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a3-Memphis99\build\CMakeFiles\c60ab06e3984538d2959fcaba9ae505f\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2406B42E-C2A8-3228-A2BB-F41FAD8283C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

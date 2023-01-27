@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1995536-2FBF-3FE9-B9E1-71E096B5FEA4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <Platform>x64</Platform>
+    <ProjectName>manip-app</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">manip-app.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">manip-app</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">manip-app.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">manip-app</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">manip-app.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">manip-app</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">manip-app.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">manip-app</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ASSETS_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/assets";SHADER_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../gui/shaders";IMGUI_FONT_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../../ext/imgui/misc/fonts";IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ASSETS_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/assets\";SHADER_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../gui/shaders\";IMGUI_FONT_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../../ext/imgui/misc/fonts\";IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\optLib\Debug\optLib.lib;..\guiLib\Debug\guiLib.lib;..\femLib\Debug\femLib.lib;..\helpersLib\Debug\helpersLib.lib;..\..\ext\glad\Debug\glad.lib;opengl32.lib;glu32.lib;..\..\ext\glfw\src\Debug\glfw3.lib;..\..\ext\imgui\Debug\imgui.lib;..\optLib\Debug\optLib.lib;..\helpersLib\Debug\helpersLib.lib;..\..\ext\Debug\nanovg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/Debug/manip-app.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/Debug/manip-app.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/assets";SHADER_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../gui/shaders";IMGUI_FONT_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../../ext/imgui/misc/fonts";IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/assets\";SHADER_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../gui/shaders\";IMGUI_FONT_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../../ext/imgui/misc/fonts\";IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\optLib\Release\optLib.lib;..\guiLib\Release\guiLib.lib;..\femLib\Release\femLib.lib;..\helpersLib\Release\helpersLib.lib;..\..\ext\glad\Release\glad.lib;opengl32.lib;glu32.lib;..\..\ext\glfw\src\Release\glfw3.lib;..\..\ext\imgui\Release\imgui.lib;..\optLib\Release\optLib.lib;..\helpersLib\Release\helpersLib.lib;..\..\ext\Release\nanovg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/Release/manip-app.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/Release/manip-app.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/assets";SHADER_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../gui/shaders";IMGUI_FONT_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../../ext/imgui/misc/fonts";IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/assets\";SHADER_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../gui/shaders\";IMGUI_FONT_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../../ext/imgui/misc/fonts\";IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\optLib\MinSizeRel\optLib.lib;..\guiLib\MinSizeRel\guiLib.lib;..\femLib\MinSizeRel\femLib.lib;..\helpersLib\MinSizeRel\helpersLib.lib;..\..\ext\glad\MinSizeRel\glad.lib;opengl32.lib;glu32.lib;..\..\ext\glfw\src\MinSizeRel\glfw3.lib;..\..\ext\imgui\MinSizeRel\imgui.lib;..\optLib\MinSizeRel\optLib.lib;..\helpersLib\MinSizeRel\helpersLib.lib;..\..\ext\MinSizeRel\nanovg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/MinSizeRel/manip-app.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/MinSizeRel/manip-app.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/assets";SHADER_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../gui/shaders";IMGUI_FONT_FOLDER="C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../../ext/imgui/misc/fonts";IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/assets\";SHADER_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../gui/shaders\";IMGUI_FONT_FOLDER=\"C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/guiLib/../../ext/imgui/misc/fonts\";IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\eigen;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\optLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\helpersLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\nanovg\src;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\guiLib\..\..\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glad\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glfw\include;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\imgui;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\stb_image;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm\glm\..;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\ext\glm;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\femLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\optLib\RelWithDebInfo\optLib.lib;..\guiLib\RelWithDebInfo\guiLib.lib;..\femLib\RelWithDebInfo\femLib.lib;..\helpersLib\RelWithDebInfo\helpersLib.lib;..\..\ext\glad\RelWithDebInfo\glad.lib;opengl32.lib;glu32.lib;..\..\ext\glfw\src\RelWithDebInfo\glfw3.lib;..\..\ext\imgui\RelWithDebInfo\imgui.lib;..\optLib\RelWithDebInfo\optLib.lib;..\helpersLib\RelWithDebInfo\helpersLib.lib;..\..\ext\RelWithDebInfo\nanovg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/RelWithDebInfo/manip-app.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/RelWithDebInfo/manip-app.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\app\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/src/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/University/CMM/a4-Memphis99 -BC:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build --check-stamp-file C:/Users/DELL/Desktop/University/CMM/a4-Memphis99/build/src/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\cmake\FindJson.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\src\app\manip-app.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\ZERO_CHECK.vcxproj">
+      <Project>{2A41CBEA-D9C7-32C2-9FAE-8FEA2180245A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\femLib\femLib.vcxproj">
+      <Project>{D895DF22-E5D8-3318-960D-12C8AC30A9C2}</Project>
+      <Name>femLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\ext\glad\glad.vcxproj">
+      <Project>{0FB6548F-8781-3FF7-BAED-64EF6B120BA2}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\ext\glfw\src\glfw.vcxproj">
+      <Project>{78E36C94-0CBC-369A-A73E-54166B6BC767}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\guiLib\guiLib.vcxproj">
+      <Project>{C4FECD37-86FC-39D9-8A60-8490AA49A17F}</Project>
+      <Name>guiLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\helpersLib\helpersLib.vcxproj">
+      <Project>{1FC0643E-60F7-3A47-89E8-3F7778DC6A00}</Project>
+      <Name>helpersLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\ext\imgui\imgui.vcxproj">
+      <Project>{B9E88E0E-4F03-39B2-90DB-FB9EB247D9D1}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\ext\nanovg.vcxproj">
+      <Project>{635CB17E-8D92-3105-B322-CCDD07B024E9}</Project>
+      <Name>nanovg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\University\CMM\a4-Memphis99\build\src\optLib\optLib.vcxproj">
+      <Project>{B4D56348-2964-39C6-9D8D-984E180C7C59}</Project>
+      <Name>optLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

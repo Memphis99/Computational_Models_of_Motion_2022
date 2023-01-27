@@ -1,0 +1,1672 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "ext",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext-Debug-63b9e8ce5dc84e05b5e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ext",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "ext/stb_image",
+					"jsonFile" : "directory-ext.stb_image-Debug-20030c32c4249c03e026.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ext/stb_image"
+				},
+				{
+					"build" : "ext/glad",
+					"jsonFile" : "directory-ext.glad-Debug-48d58ee924e0b150725b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ext/glad",
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"build" : "ext/ext/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.ext.glfw-Debug-6da4d5f4f9fe00cb6c36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glfw-src",
+					"targetIndexes" : 
+					[
+						4,
+						14
+					]
+				},
+				{
+					"build" : "ext/ext/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.ext.glfw.src-Debug-083c4ad7c030055deaf8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glfw-src/src",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "ext/ext/glm",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-ext.ext.glm-Debug-3d86adc8fb063b848dad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "build/_deps/glm-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ext/ext/glm/glm",
+					"jsonFile" : "directory-ext.ext.glm.glm-Debug-a6620f02148ee735233a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "build/_deps/glm-src/glm"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/boids",
+					"jsonFile" : "directory-src.boids-Debug-2fbd4735af9934c26aee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 4,
+					"source" : "src/boids",
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"build" : "src/guiLib",
+					"jsonFile" : "directory-src.guiLib-Debug-85dfd8387ff1d557c107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "src/guiLib",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src/app",
+					"jsonFile" : "directory-src.app-Debug-de77eec203e76141027b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 5,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						8,
+						10
+					],
+					"name" : "a0",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						10,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "boids",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "app",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-7154eada535029cd19bb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@539eedc5e356ba0cd9d4",
+					"jsonFile" : "target-ALL_BUILD-Debug-f31c86319aeb15ad555e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@0825e566901fd3fc732b",
+					"jsonFile" : "target-ALL_BUILD-Debug-ef2753270f0e4455a06f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-ALL_BUILD-Debug-ea7eeb3d750adcbc609c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@a406cde0a26fd7d75c9b",
+					"jsonFile" : "target-ALL_BUILD-Debug-d2486858707369446c8c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-ALL_BUILD-Debug-9fbfcc3707176070b001.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-334b5bff6a8923115b20.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "app::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-app-Debug-cc148d849fbad924a2c9.json",
+					"name" : "app",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "boids::@0825e566901fd3fc732b",
+					"jsonFile" : "target-boids-Debug-3abc9ebdbf067680b20d.json",
+					"name" : "boids",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-glad-Debug-b64c9fa67de01293f1be.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@51deef6ddf181c39c9a3",
+					"jsonFile" : "target-glfw-Debug-4fb47c55848b315fb962.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "guiLib::@168af0d284c76fb33368",
+					"jsonFile" : "target-guiLib-Debug-fefb61271db5bc5dfdbf.json",
+					"name" : "guiLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-imgui-Debug-8d4038192386c9431fe2.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nanovg::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-nanovg-Debug-e2806eb45688c679360f.json",
+					"name" : "nanovg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@a406cde0a26fd7d75c9b",
+					"jsonFile" : "target-uninstall-Debug-cb58b3e9c0f27253c150.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "ext",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext-Release-63b9e8ce5dc84e05b5e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ext",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "ext/stb_image",
+					"jsonFile" : "directory-ext.stb_image-Release-20030c32c4249c03e026.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ext/stb_image"
+				},
+				{
+					"build" : "ext/glad",
+					"jsonFile" : "directory-ext.glad-Release-48d58ee924e0b150725b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ext/glad",
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"build" : "ext/ext/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.ext.glfw-Release-6da4d5f4f9fe00cb6c36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glfw-src",
+					"targetIndexes" : 
+					[
+						4,
+						14
+					]
+				},
+				{
+					"build" : "ext/ext/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.ext.glfw.src-Release-b39c48d04bf3343c9832.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glfw-src/src",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "ext/ext/glm",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-ext.ext.glm-Release-3d86adc8fb063b848dad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "build/_deps/glm-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ext/ext/glm/glm",
+					"jsonFile" : "directory-ext.ext.glm.glm-Release-a6620f02148ee735233a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "build/_deps/glm-src/glm"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-src-Release-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/boids",
+					"jsonFile" : "directory-src.boids-Release-2fbd4735af9934c26aee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 4,
+					"source" : "src/boids",
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"build" : "src/guiLib",
+					"jsonFile" : "directory-src.guiLib-Release-85dfd8387ff1d557c107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "src/guiLib",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src/app",
+					"jsonFile" : "directory-src.app-Release-de77eec203e76141027b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 5,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						8,
+						10
+					],
+					"name" : "a0",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						10,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "boids",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "app",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-7154eada535029cd19bb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@539eedc5e356ba0cd9d4",
+					"jsonFile" : "target-ALL_BUILD-Release-f31c86319aeb15ad555e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@0825e566901fd3fc732b",
+					"jsonFile" : "target-ALL_BUILD-Release-ef2753270f0e4455a06f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-ALL_BUILD-Release-ea7eeb3d750adcbc609c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@a406cde0a26fd7d75c9b",
+					"jsonFile" : "target-ALL_BUILD-Release-d2486858707369446c8c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-ALL_BUILD-Release-9fbfcc3707176070b001.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-334b5bff6a8923115b20.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "app::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-app-Release-4d5dcc23fab50eb64ba1.json",
+					"name" : "app",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "boids::@0825e566901fd3fc732b",
+					"jsonFile" : "target-boids-Release-96156aee4317bcfeb4d8.json",
+					"name" : "boids",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-glad-Release-0fe52b2d9fc641d6ce51.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@51deef6ddf181c39c9a3",
+					"jsonFile" : "target-glfw-Release-85faf6847c8bbc5d9633.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "guiLib::@168af0d284c76fb33368",
+					"jsonFile" : "target-guiLib-Release-7df07d15f06617f0ea8d.json",
+					"name" : "guiLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-imgui-Release-6b8a842ea5e749ba344a.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nanovg::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-nanovg-Release-285a0640fcac60b6a413.json",
+					"name" : "nanovg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@a406cde0a26fd7d75c9b",
+					"jsonFile" : "target-uninstall-Release-cb58b3e9c0f27253c150.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "ext",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext-MinSizeRel-63b9e8ce5dc84e05b5e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ext",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "ext/stb_image",
+					"jsonFile" : "directory-ext.stb_image-MinSizeRel-20030c32c4249c03e026.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ext/stb_image"
+				},
+				{
+					"build" : "ext/glad",
+					"jsonFile" : "directory-ext.glad-MinSizeRel-48d58ee924e0b150725b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ext/glad",
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"build" : "ext/ext/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.ext.glfw-MinSizeRel-6da4d5f4f9fe00cb6c36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glfw-src",
+					"targetIndexes" : 
+					[
+						4,
+						14
+					]
+				},
+				{
+					"build" : "ext/ext/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.ext.glfw.src-MinSizeRel-e81c3b94e56f86a3e606.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glfw-src/src",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "ext/ext/glm",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-ext.ext.glm-MinSizeRel-3d86adc8fb063b848dad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "build/_deps/glm-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ext/ext/glm/glm",
+					"jsonFile" : "directory-ext.ext.glm.glm-MinSizeRel-a6620f02148ee735233a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "build/_deps/glm-src/glm"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-src-MinSizeRel-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/boids",
+					"jsonFile" : "directory-src.boids-MinSizeRel-2fbd4735af9934c26aee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 4,
+					"source" : "src/boids",
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"build" : "src/guiLib",
+					"jsonFile" : "directory-src.guiLib-MinSizeRel-85dfd8387ff1d557c107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "src/guiLib",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src/app",
+					"jsonFile" : "directory-src.app-MinSizeRel-de77eec203e76141027b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 5,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						8,
+						10
+					],
+					"name" : "a0",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						10,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "boids",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "app",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7154eada535029cd19bb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@539eedc5e356ba0cd9d4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f31c86319aeb15ad555e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@0825e566901fd3fc732b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ef2753270f0e4455a06f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ea7eeb3d750adcbc609c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@a406cde0a26fd7d75c9b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d2486858707369446c8c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9fbfcc3707176070b001.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-334b5bff6a8923115b20.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "app::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-app-MinSizeRel-3775a384fcd4753e6425.json",
+					"name" : "app",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "boids::@0825e566901fd3fc732b",
+					"jsonFile" : "target-boids-MinSizeRel-50b878d27f2d714fcf0f.json",
+					"name" : "boids",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-glad-MinSizeRel-a51697d08cf283dfc475.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@51deef6ddf181c39c9a3",
+					"jsonFile" : "target-glfw-MinSizeRel-59035879ef36959176dc.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "guiLib::@168af0d284c76fb33368",
+					"jsonFile" : "target-guiLib-MinSizeRel-774222b314a052d0b5b3.json",
+					"name" : "guiLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-imgui-MinSizeRel-dd2f7af3caa5259a2ebe.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nanovg::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-nanovg-MinSizeRel-30fe339217546bb85481.json",
+					"name" : "nanovg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@a406cde0a26fd7d75c9b",
+					"jsonFile" : "target-uninstall-MinSizeRel-cb58b3e9c0f27253c150.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "ext",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext-RelWithDebInfo-63b9e8ce5dc84e05b5e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ext",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "ext/stb_image",
+					"jsonFile" : "directory-ext.stb_image-RelWithDebInfo-20030c32c4249c03e026.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ext/stb_image"
+				},
+				{
+					"build" : "ext/glad",
+					"jsonFile" : "directory-ext.glad-RelWithDebInfo-48d58ee924e0b150725b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ext/glad",
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"build" : "ext/ext/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.ext.glfw-RelWithDebInfo-6da4d5f4f9fe00cb6c36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glfw-src",
+					"targetIndexes" : 
+					[
+						4,
+						14
+					]
+				},
+				{
+					"build" : "ext/ext/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.ext.glfw.src-RelWithDebInfo-e49b1674a7098d415fd9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glfw-src/src",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "ext/ext/glm",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-ext.ext.glm-RelWithDebInfo-3d86adc8fb063b848dad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "build/_deps/glm-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ext/ext/glm/glm",
+					"jsonFile" : "directory-ext.ext.glm.glm-RelWithDebInfo-a6620f02148ee735233a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "build/_deps/glm-src/glm"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-src-RelWithDebInfo-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/boids",
+					"jsonFile" : "directory-src.boids-RelWithDebInfo-2fbd4735af9934c26aee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 4,
+					"source" : "src/boids",
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"build" : "src/guiLib",
+					"jsonFile" : "directory-src.guiLib-RelWithDebInfo-85dfd8387ff1d557c107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "src/guiLib",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src/app",
+					"jsonFile" : "directory-src.app-RelWithDebInfo-de77eec203e76141027b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 5,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						8,
+						10
+					],
+					"name" : "a0",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						10,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "boids",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "app",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7154eada535029cd19bb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@539eedc5e356ba0cd9d4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f31c86319aeb15ad555e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@0825e566901fd3fc732b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ef2753270f0e4455a06f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ea7eeb3d750adcbc609c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@a406cde0a26fd7d75c9b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d2486858707369446c8c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9fbfcc3707176070b001.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-334b5bff6a8923115b20.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "app::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-app-RelWithDebInfo-205f8f67b49262a22d57.json",
+					"name" : "app",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "boids::@0825e566901fd3fc732b",
+					"jsonFile" : "target-boids-RelWithDebInfo-b891d0564a480e877e54.json",
+					"name" : "boids",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@395c76cf0743a1c2a345",
+					"jsonFile" : "target-glad-RelWithDebInfo-ee3aeb60b1f2c53bdc77.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@51deef6ddf181c39c9a3",
+					"jsonFile" : "target-glfw-RelWithDebInfo-016b7de2975374a942f7.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "guiLib::@168af0d284c76fb33368",
+					"jsonFile" : "target-guiLib-RelWithDebInfo-8d9fd84af5685dc1c72c.json",
+					"name" : "guiLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-imgui-RelWithDebInfo-56502a74e1be9f3cbb54.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nanovg::@a9f99adfd9f636cea434",
+					"jsonFile" : "target-nanovg-RelWithDebInfo-177234660919cfca4e5d.json",
+					"name" : "nanovg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@a406cde0a26fd7d75c9b",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-cb58b3e9c0f27253c150.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build",
+		"source" : "C:/Users/DELL/Desktop/University/CMM/a3-Memphis99"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,3 @@
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.dir
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL/Desktop/University/CMM/a3-Memphis99/build/_deps/glfw-subbuild/CMakeFiles/ZERO_CHECK.dir
